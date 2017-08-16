@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
   // grunt.loadNpmTasks('grunt-jscs');
-
+// just testing DBERGMAN
   grunt.registerTask('default', ['jshint', 'jscs', 'uglify', 'cssmin']);
 
   grunt.registerTask('build:travis', ['jshint', 'jscs', 'uglify', 'cssmin']);
