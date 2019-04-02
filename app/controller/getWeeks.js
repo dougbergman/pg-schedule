@@ -28,7 +28,7 @@ module.exports.currentWeek = function() {
         } else {
           week = 'WEEKEND';
         }
-        currentWeek = week;
+        currentWeek = week;  
         return week;
       });
     });
